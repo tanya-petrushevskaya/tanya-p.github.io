@@ -1,0 +1,37 @@
+*{
+	font-family: 'Oswald', sans-serif;
+}
+.box{
+	width: 900px;
+	margin: 0 auto;
+}
+.image-block, .info-block{
+	width: 50%;
+	height: 300px;
+}
+.image-block{
+	float: left;
+	background: red;
+}
+.info-block{
+	float: right;
+	background: green;
+}
+.main-image{
+	width: 50%;
+	margin-left: 25%;
+	height: 80%;
+	margin-top: 5%;
+}
+.headline2, .header-paragraph{
+	margin: 5%;
+}
+.section{
+	background: gray;
+	width: 100%;
+	height: 300px;
+	float: left;
+}
+.headline3{
+	text-align: center;
+}
