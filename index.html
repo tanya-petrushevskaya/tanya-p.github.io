@@ -7,7 +7,12 @@
 </head>
 <body>
 	<div class="box">
-		<header class="header">
+		<nav class="navigation" id="nav">
+			<a href="#nav" class="nav-link">Главная</a>
+			<a href="#header" class="nav-link">Основная информация</a>
+			<a href="#section" class="nav-link">Мои работы</a>
+		</nav>
+		<header class="header" id="header">
 			<div class="image-block">
 				<img src="image1.jpg" alt="" class="main-image">
 			</div>
@@ -22,12 +27,34 @@
 				</p>
 			</div>
 		</header>
-		<section class="section">
-			<h3 class="headline3">Мои проекты:</h3>
-			<button class="first-project">
-				<a href=""></a>
-			</button>
-		</section>
+		<div class="section" id="section">
+			<div class="section-headline">
+				<h3 class="headline3">Мои проекты:</h3>
+			</div>
+			<div class="section-projects">
+				<div class="project-block">
+					<img src="first-pr.png" alt="" class="project-image">
+					<button class="project-button">
+						<a href="">Перейти</a>
+					</button>
+				</div>
+				<div class="project-block">
+					<img src="image1.jpg" alt="" class="project-image">
+					<button class="project-button">
+						<a href=""></a>
+					</button>
+				</div>
+				<div class="project-block">
+					<img src="image1.jpg" alt="" class="project-image">
+					<button class="project-button">
+						<a href=""></a>
+					</button>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			Петрушевская Татьяна, 2020
+		</footer>
 	</div>
 </body>
 </html>
